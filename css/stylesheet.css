@@ -15,13 +15,15 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 15%; /* 150 */ 
-	background-color: black;
+/* 	background-color: black; */
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
 }
 
 #logoSalamandra {
-
+	background-image: url("../imgs/salamandracapa.png");
+	width: 850px;
+	height: 150px;
 }
 
 #conteudoSite {
