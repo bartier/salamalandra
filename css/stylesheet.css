@@ -1,0 +1,43 @@
+body {
+	background-color: yellowgreen;
+}
+
+#pai {
+	position: relative;
+	margin: auto;
+	width: 80%;
+	height: 1000px;
+	background-color: white;
+	border-radius: 30px;
+}
+
+#cabecalho {
+	position: absolute;
+	width: 100%;
+	height: 15%; /* 150 */ 
+	background-color: black;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+#logoSalamandra {
+
+}
+
+#conteudoSite {
+	position: absolute;
+	margin-top: 150px;
+	width: 100%;
+	height: 80%; /* 800 px*/
+	background-color: blue;
+}
+
+#footer {
+	position: absolute;
+	margin-top: 90%;
+	width: 100%;
+	height: 5%; /* 50 px */ 
+	background-color: red;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
