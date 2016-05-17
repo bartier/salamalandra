@@ -5,19 +5,20 @@ body {
 #pai {
 	position: relative;
 	margin: auto;
-	width: 1000px;
+	width: 62.5%;
 	height: 1000px;
 	background-color: white;
 	border-radius: 30px;
+	margin-bottom: 50px;
+	padding-bottom: 150px;
 }
 
 #cabecalho {
 	position: absolute;
 	width: 100%;
-	height: 176px;
+	height: 17.6%;
 	background-image: url('../imgs/bgCabecalho5.png');
 	background-repeat: no-repeat;
-	/* background-color: black; */
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
 
@@ -26,4 +27,64 @@ body {
 #logoSalamandra {
 	position: absolute;
 	background-repeat: no-repeat;
+}
+
+/* #logoSalamandra {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+} */
+
+.painel {
+	position: absolute;
+	border-radius: 30px;
+	width: 50%;
+	height: 50%;
+	display: none;
+	z-index: 10;
+	background-color: red;
+}
+
+#mascara {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 5;
+	background-color: white;
+}
+
+#conteudoSite {
+	position: absolute;
+	margin-top: 40%;
+}
+
+#divNav {
+	position: absolute;
+	margin-top: ;
+}
+
+.nav {
+	display: inline;
+}
+
+#footer {
+	position: relative;
+	margin-top: -150px;
+	clear: both;
+	width: 100%;
+	background-color: white;
+}
+
+#footerSec {
+	padding: 0 0 0 50px;
+	clear: both;
+	font-size: 12px;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+#footer a {
+	text-decoration: none;
 }

@@ -4,25 +4,52 @@
 	<meta charset="UTF-8">
 	<title>Salamandra - Brinquedos de Madeira</title>
 	<link href="css/stylesheet.css" rel="stylesheet">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jq.js"></script>
 	<link rel="icon" href="imgs/icone.ico">
 </head>
-<body>
+<body onload="carregar()">
 	<div id="pai">
 		<div id="cabecalho">
 			<div id="logoSalamandra">
+				<!-- <img src="imgs/bgCabecalho5.png" alt="logo" id="logoSalamandra"> -->
 			</div>
 		</div>
-		<div id="nav">
-		<!-- menu aqui -->
+		<div id="divNav">
+			<ul>
+				<li class="nav"><a href="#veiculos.htm" class="botoesNav">Veículos</a></li>
+				<li class="nav"><a href="#montanha" class="botoesNav">Montanha Russa</a></li>
+				<li class="nav"><a href="#fantasia" class="botoesNav">Faz de Conta e Fantasia</a></li>
+				<li class="nav"><a href="#educativos" class="botoesNav">Educativos</a></li>
+			</ul>
 		</div>
 
 		<div id="conteudoSite">
+			<p id="arquimedes">Arquimedes</p>
+			<p id="bemvindo">Bem vindo</p>
 		</div>
-
-		<div id="footer">
-			<!-- footer rodape -->
-		</div>
-
 	</div>	
+	
+	<div id="footer">
+	 	<div id="footerSec">
+			<div>Icons made by 
+				<a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> 
+				and
+				<a href="http://www.freepik.com" title="Freepik">Freepik</a> 
+				from 
+				<a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> 
+				is licensed by 
+				<a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+			</div>	
+		</div>
+	</div>
+
+	<div id="painel">
+		<!-- jQuery modifica o elemento que vai aparecer -->
+	</div>
+
+	<div id="mascara">
+		<!-- cobre o site com uma transparência de fundo -->
+	</div>
 </body>
 </html>
