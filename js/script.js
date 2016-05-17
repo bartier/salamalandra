@@ -1,23 +1,22 @@
-
-function carregar(){
+function carregar() {
 	$("#arquimedes").hide();
 	$("#painel").hide();
 
-	// rodarSlides();
+	var alturaTela = $(document).height();
+    var larguraTela = $(document).width();
 
-	$("#bemvindo").click( function(){
-        var alturaTela = $(document).height();
-        var larguraTela = $(window).width();
-     
+	$('<div id="painel"></div>').appendTo('body');
+	$('<div id="mascara"></div>').css({width:larguraTela,height:alturaTela}).appendTo('body').hide();
+
+	$("#bemvindo").click(function(e){
+		e.preventDefault();
         //colocando o fundo preto
-        $('#mascara').css({'width':larguraTela,'height':alturaTela});
-        $('#mascara').fadeTo(500,1); 
         $('#mascara').fadeTo("slow",0.8);
  
         var left = ($(window).width() /2) - ( $("#painel").width() / 2 );
         var top = ($(window).height() / 2) - ( $("#painel").height() / 2 );
      
-        $("#painel").css({top: top,left: left});
+        $("#painel").css({top: top + document.body.scrollTop,left: left});
         $("#painel").show();   
     });
  
@@ -42,4 +41,4 @@ function rodarSlides(){
 			break;
 	}
 	setTimeout(rodarSlides, 6000);
-}
+};
