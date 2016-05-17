@@ -1,5 +1,6 @@
 body {
     background: linear-gradient( #a7f1b0, #9bcd25); /* Standard syntax */
+	font-family: Roboto;
 }
 
 #pai {
@@ -63,11 +64,23 @@ body {
 
 #divNav {
 	position: absolute;
-	margin-top: ;
+	margin-top: 17.6%;
 }
 
 .nav {
 	display: inline;
+	padding-left: 75px;
+}
+
+.nav a {
+	text-decoration: none;
+	background-color: green;
+	color: red;
+}
+
+.nav a:hover {
+	background-color: yellow;
+	color: red;
 }
 
 #footer {
