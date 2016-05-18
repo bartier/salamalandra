@@ -82,25 +82,50 @@ body {
     background-color: #428C4E;
 }
 
-#divNav li {
-	float: left;
-	padding-left: 50px;
-}
-
-.nav {
+#divNav ul li {
 	display: inline;
-	padding-left: 40px;
+	float: left;
 }
 
-.nav a {
+.nav-car a{
+	background: url("../imgs/icons/veiculosLogo1.png") no-repeat 10px 3px transparent;
+	padding-left: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-montanha a{
+	background: url("../imgs/icons/montanhaRussaLogo.png") no-repeat 10px 3px transparent;
+	padding-left: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-fantasia a{
+	background: url("../imgs/icons/fantasiaLogo.png") no-repeat 10px 3px transparent;
+	padding-left: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-educativos a{
+	background: url("../imgs/icons/educativoLogo.png") no-repeat 10px 3px transparent;
+	padding-left: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#divNav ul li a {
 	text-decoration: none;
-	/* background-color: green; */
 	color: #FFFFFF;
 }
 
-.nav a:hover {
-	/* background-color: yellow; */
+#divNav ul li a:hover {
 	color: #334827;
+}
+
+#divNav ul li:hover {
+	background: url("../imgs/icons/pointer.gif") no-repeat bottom center transparent;
 }
 
 #footer {
@@ -122,4 +147,52 @@ body {
 
 #footer a {
 	text-decoration: none;
+}
+
+#conteudoSite img {
+	position: relative;
+	display: none;
+	opacity: 0.5;
+	max-width: 100%;
+	height: 100%;
+}
+
+.imgsHomeCasa, .imgsHomeAviao {
+	left: 50%;
+}
+
+.imgsHomeBus {
+	left: 30%;
+}
+
+#textoArquimedes {
+	position: absolute;
+	opacity: 0;
+	font-size: 20px;
+	top: 35%;
+	left: 100%;
+	white-space: nowrap;
+}
+
+#textoArquimedes2 {
+	position: absolute;
+	font-size: 20px;
+	opacity: 0;
+	top: 37%;
+	left: 100%;
+	white-space: nowrap;
+}
+
+#propaganda {
+	position: absolute;
+	top: 60%;
+	opacity: 0;
+	font-size: 20px;
+	white-space: nowrap;
+}
+
+#imagens {
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
