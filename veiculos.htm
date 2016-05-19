@@ -8,19 +8,14 @@
 	<title>Salamandra - Brinquedos de Madeira</title>
 	<link href="css/stylesheet.css" rel="stylesheet">
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/scriptProdutos.js"></script>
 	<script type="text/javascript" src="js/jq.js"></script>
 	<link rel="icon" href="imgs/icone.ico">
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-     		carregar();
-		});
-	</script>
 
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
 </head>
-<body>
+<body onload="janelaModal()">
 	<div id="pai">
 		<div id="cabecalho">
 			<a href="index.html" title="Home">
@@ -38,16 +33,41 @@
 		</div>
 
 		<div id="conteudoSite">
-			<p class="textSlides" id="textoArquimedes">"Brincar é condição fundamental para ser sério"</p>
-			<p class="textSlides" id="textoArquimedes2">Arquimedes</p>
-			<p class="textSlides" id="propaganda">Confira nossas coleções!!!</p>	
-		</div>
-		
-		<div id="imagens">
-			<img class="imgsHomeCasa" id="1" src="imgs/casinha.jpg" alt="">
-			<img class="imgsHomeTrem" id="2" src="imgs/trenzinho.jpg" alt="">
-			<img class="imgsHomeBus" id="3" src="imgs/onibus.jpg" alt="">
-			<img class="imgsHomeAviao" id="4" src="imgs/aviao.jpg" alt="">
+			<ul id="listaProdutos">
+					<li>
+						<div> <img class="produtos" src="imgs/guincho.jpg"> </div>
+						<br>
+						<txt class="precos"> De: <strike>R$ 89,90</strike></txt> <br><br>
+						<txt class="precos"> Por: R$ 49,90</txt>
+					</li>
+					<li>
+						<div> <img class="produtos" src="imgs/trenzinho.jpg"> </div>
+						<br>
+						<txt class="precos">	Por: R$ 139,90</txt>
+					</li>
+					<li>
+						<div> <img class="produtos" src="imgs/onibus.jpg"> </div>
+						<br>
+						<txt class="precos"> De: <strike>R$ 60,00</strike></txt> <br><br>
+						<txt class="precos"> Por: R$ 50,00</txt>
+					</li>
+					<li>
+						<div> <img class="produtos" src="imgs/caminhaozinho.jpg"> </div>
+						<br>
+						<txt class="precos"> De: <strike>R$ 49,90</strike></txt> <br><br>
+						<txt class="precos"> Por: R$ 19,90</txt>
+					</li>
+					<li>
+						<div> <img class="produtos" src="imgs/aviao.jpg"> </div>
+						<br>
+						<txt class="precos"> Por: R$ 69,90</txt>
+					</li>
+					<li>
+						<div> <img class="produtos" src="imgs/carrinho.jpg"> </div>
+						<br>
+						<txt class="precos"> Por: R$ 20,00</txt>
+					</li>
+				</ul>	
 		</div>
 
 	</div>
