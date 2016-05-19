@@ -70,8 +70,8 @@ function rodarTextos() {
 		case 2:
 			$("#textoArquimedes").animate({left:'0%',opacity:'0'},800, function() {
 			$("#textoArquimedes2").animate({left:'0%',opacity:'0'},1000, function() { 
-			$("#textoArquimedes").css({left:'100%'});
-			$("#textoArquimedes2").css({left:'100%'});
+			$("#textoArquimedes").css({left:'85%'});
+			$("#textoArquimedes2").css({left:'85%'});
 			}); });
 			m = 3;
 			break;

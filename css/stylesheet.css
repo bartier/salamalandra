@@ -88,34 +88,37 @@ body {
 }
 
 .nav-car a{
-	background: url("../imgs/icons/veiculosLogo1.png") no-repeat 10px 3px transparent;
+	background: url("../imgs/icons/veiculosLogo1.png") no-repeat 10px 1px transparent;
 	padding-left: 40px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 .nav-montanha a{
-	background: url("../imgs/icons/montanhaRussaLogo.png") no-repeat 10px 3px transparent;
+	background: url("../imgs/icons/montanhaRussaLogo.png") no-repeat 10px 1px transparent;
 	padding-left: 40px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 .nav-fantasia a{
-	background: url("../imgs/icons/fantasiaLogo.png") no-repeat 10px 3px transparent;
+	background: url("../imgs/icons/fantasiaLogo.png") no-repeat 10px 1px transparent;
 	padding-left: 40px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 .nav-educativos a{
-	background: url("../imgs/icons/educativoLogo.png") no-repeat 10px 3px transparent;
+	background: url("../imgs/icons/educativoLogo.png") no-repeat 10px 1px transparent;
 	padding-left: 40px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 3px;
+	margin-right: 3px;
+	outline-width: 2px;
+	outline-color: red;
 }
 
 #divNav ul li a {
+	font-size: 29px;
 	text-decoration: none;
 	color: #FFFFFF;
 }
@@ -134,19 +137,37 @@ body {
 	clear: both;
 	width: 100%;
 	margin-right: -15px;
-	background-color: white;
+	background-color: #1C8424;
 }
 
-#footerSec {
-	background-color: white;
-	padding: 0 0 0 50px;
+#footerLogo {
+	position: absolute;
+	background-color: #4DA646;
+	padding: 8px 0 0 50px;
+	clear: both;
+	height: 155px;
+	width: calc(20% - 50px);
+	font-size: 16px;
+	text-align: center;
+	font-family: Helvetica, arial, sans-serif;
+	border-top: 4px solid #095101;
+}
+
+#footerLogo hr {
+	border-color: black;
+}
+
+#infos {
+	position: absolute;
+	height: 155px;
+	background-color: #4DA646;
+	margin-left: 20%;
+	padding: 8px 0 0 50px;
+	width: calc(80% - 43px);
 	clear: both;
 	font-size: 20px;
-	font-family: Helvetica, arial, sans-serif;
-}
-
-#footer a {
-	text-decoration: none;
+	font-family: Helvetica, arial, sans-serif;	
+	border-top: 4px solid #095101;
 }
 
 #conteudoSite img {
@@ -172,6 +193,9 @@ body {
 	top: 35%;
 	left: 100%;
 	white-space: nowrap;
+	color: white;
+	text-shadow: 1px 1px 4px black, 0 0 4px black;
+	font-family: helvetica, arial;
 }
 
 #textoArquimedes2 {
@@ -181,6 +205,9 @@ body {
 	top: 37%;
 	left: 100%;
 	white-space: nowrap;
+	color: white;
+	text-shadow: 1px 1px 4px black, 0 0 4px black;
+	font-family: helvetica, arial;
 }
 
 #propaganda {
@@ -189,10 +216,46 @@ body {
 	opacity: 0;
 	font-size: 20px;
 	white-space: nowrap;
+	color: white;
+	text-shadow: 1px 1px 4px black, 0 0 4px black;
+	font-family: helvetica, arial;
 }
 
 #imagens {
 	position: relative;
 	width: 100%;
 	height: 100%;
+}
+
+#nomeLoja {
+	position: relative;
+	left: 25%;
+	padding-top: 10px;
+	color: white;
+	font-weight: bolder;
+	width: 50%;
+	font-size: 30px;
+}
+
+#endereco {
+	position: absolute;
+	width: 50%;
+	margin-left: 5%;
+	font-weight: 400;
+	font-size: 25px;
+	top: 45%;
+}
+
+#telefone {
+	position: absolute;
+	padding-left: 9%;
+	width: 25%;
+	left: 53%;
+	top: 55%;
+	font-size: 25px;
+	border-left: 2px solid black;
+}
+
+#infos div {
+	font-family: roboto;
 }
